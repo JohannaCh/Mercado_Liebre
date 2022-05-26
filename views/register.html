@@ -17,8 +17,8 @@
                     <div class="logo"> 
                         <img src="images/logo-mercado-liebre.svg" alt="logotipo de mercado liebre">
                     </div>
-                    <div class="form" action="#" method="GET">
-                        <div class="input"><input type="text" value="Buscar productos, marcas y más"></div>
+                    <div class="form" action="/" method="GET">
+                        <div class="input"><input type="text" placeholder="Buscar productos, marcas y más"></div>
                         <div class="submit"><i class="fa fa-search"></i></div>
                     </div>
                 </div>
@@ -45,22 +45,22 @@
             <section class="form__container">
                 <form action="" method="POST">
                     <div class="form__item">
-                        <input type="text" placeholder="Nombre y apellido">
-                        <input type="text" placeholder="Nombre de usuario">
+                        <input type="text" placeholder="Nombre y apellido" required>
+                        <input type="text" placeholder="Nombre de usuario" required>
                         <h4>Fecha de nacimiento</h4>
-                        <input type="date" name="birth-date">
-                        <input type="text" placeholder="Domicilio">
+                        <input type="date" name="birth-date" required>
+                        <input type="text" placeholder="Domicilio" required>
                     </div>
                     <div class="form__item">
                         <h4>Perfil del usuario</h4>
                         <div class="form__ratio">
                             <div>
-                                <input type="radio"  name="vendedor">
+                                <input type="radio"  name="vendedor" required>
                                 <label for="vendedor">Vendedor</label>
                             </div>
     
                             <div>
-                                <input type="radio"  name="comprador">
+                                <input type="radio"  name="comprador" required>
                                 <label for="comprador">Comprador</label>
                             </div>
                         </div>
@@ -99,12 +99,12 @@
                             <h4>Foto de perfil</h4>
                             <input type="file">
                         </div>
-                        <input type="password" placeholder="Elegí tu contraseña">
-                        <input type="password" placeholder="Repetí tu contraseña">
+                        <input type="password" placeholder="Elegí tu contraseña" required>
+                        <input type="password" placeholder="Repetí tu contraseña" required>
                     </div>
                     <div class="form__item form__btn">
-                        <input type="button" value="Enviar">
-                        <input type="button" value="Borrar todos los campos">
+                        <input type="button" value="Enviar" required>
+                        <input type="button" value="Borrar todos los campos" required>
                     </div>
                     
                 </form>

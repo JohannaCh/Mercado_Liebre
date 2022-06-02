@@ -8,7 +8,9 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #ebebeb;
 }
-
+footer{
+    background-color: #fff;
+}
 header{
     background-color: #EAC926;
 }

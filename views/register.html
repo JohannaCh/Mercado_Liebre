@@ -17,9 +17,12 @@
                     <div class="logo"> 
                         <img src="images/logo-mercado-liebre.svg" alt="logotipo de mercado liebre">
                     </div>
-                    <div class="form" action="/" method="GET">
-                        <div class="input"><input type="text" placeholder="Buscar productos, marcas y más"></div>
-                        <div class="submit"><i class="fa fa-search"></i></div>
+                    <div class="form" action="#">
+                        <form action="/">
+                            <div class="input"><input type="text" value="Buscar productos, marcas y más">
+                                <div class="submit"><i class="fa fa-search"></i></div>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <p class="header--padding"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
@@ -43,7 +46,7 @@
         </header>
         <main>
             <section class="form__container">
-                <form action="" method="POST">
+                <form action="/" method="">
                     <div class="form__item">
                         <input type="text" placeholder="Nombre y apellido" required>
                         <input type="text" placeholder="Nombre de usuario" required>
@@ -55,12 +58,12 @@
                         <h4>Perfil del usuario</h4>
                         <div class="form__ratio">
                             <div>
-                                <input type="radio"  name="vendedor" required>
+                                <input type="radio"  name="user-profile" required>
                                 <label for="vendedor">Vendedor</label>
                             </div>
     
                             <div>
-                                <input type="radio"  name="comprador" required>
+                                <input type="radio"  name="user-profile" required>
                                 <label for="comprador">Comprador</label>
                             </div>
                         </div>
@@ -90,7 +93,7 @@
 
                             <div>
                                 <input type="checkbox"  name="vida sana">
-                                <label for="vida sana">vida sana</label>
+                                <label for="vida sana">Vida Sana</label>
                             </div>
                         </div>
                     </div>
@@ -103,7 +106,7 @@
                         <input type="password" placeholder="Repetí tu contraseña" required>
                     </div>
                     <div class="form__item form__btn">
-                        <input type="button" value="Enviar" required>
+                        <input type="submit" value="Enviar" required>
                         <input type="button" value="Borrar todos los campos" required>
                     </div>
                     

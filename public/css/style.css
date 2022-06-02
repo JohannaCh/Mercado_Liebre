@@ -109,6 +109,9 @@ div.burger__menu i{
 
 
 /* footer */
+.info{
+    padding: 2% 0%;
+}
 .info article{
     width: 70%;
     margin:20% auto 5% auto;
